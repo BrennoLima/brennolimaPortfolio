@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Card, CardText, CardBody, Label} from 'reactstrap';
+import {Card, CardBody, Label} from 'reactstrap';
 import ProfilePicture from '../assets/images/Image-3.jpg'
 
 class Profile extends Component{

@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import {Card, CardText, CardBody} from 'reactstrap';
 
 class Skills extends Component{
     
     render(){
         return(
-            <div className="skills">
+            <div className="skills" id="skills">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
