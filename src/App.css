@@ -2,27 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.footer{
+  background-color: #0a7bff;
+  margin: 30px 0px 0px 0px;
+  padding: 20px 0px 20px 0px;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.profile{
+  margin-top: 5rem;
 }
-
-.App-title {
-  font-size: 1.5em;
+.skills{
+ margin-top: 5rem;
 }
-
-.App-intro {
-  font-size: large;
+.profile-details{
+  text-align: left;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+h2, h1{
+  color: #0a7bff;
+  font-family: "Times New Roman", Times, serif;
 }
