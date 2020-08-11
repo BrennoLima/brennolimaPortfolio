@@ -10,6 +10,7 @@ class Header extends Component{
         this.state={
             isNavOpen: false
         };
+        this.toggleNav = this.toggleNav.bind(this);
     }
 
     toggleNav(){
@@ -32,32 +33,32 @@ class Header extends Component{
                             <Nav navbar className="ml-auto">
                                 <NavItem>
                                     <NavLink className="nav-link m-1" to="/">
-                                        <span className="fa fa-user-circle fa-lg"> Profile</span>
+                                        <a href="#profile" className="fa fa-user-circle fa-lg"> Profile</a>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link m-1" to="">
-                                        <span className="fa fa-calculator fa-lg"> Skills</span>
+                                        <a href="#quote1" className="fa fa-calculator fa-lg"> Skills</a>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link m-1" to="/">
-                                        <span className="fa fa-graduation-cap fa-lg"> Education</span>
+                                        <a className="fa fa-graduation-cap fa-lg"> Education</a>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link m-1" to="/">
-                                        <span className="fa fa-desktop fa-lg"> Experience</span>
+                                        <a className="fa fa-desktop fa-lg"> Experience</a>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link m-1" to="/">
-                                        <span className="fa fa-gamepad fa-lg"> Hobbies</span>
+                                        <a className="fa fa-gamepad fa-lg"> Hobbies</a>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link m-1" to="/">
-                                        <span className="fa fa-phone fa-lg"> Contact</span>
+                                        <a className="fa fa-phone fa-lg"> Contact</a>
                                     </NavLink>
                                 </NavItem>
                             </Nav>

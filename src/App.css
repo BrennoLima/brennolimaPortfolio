@@ -20,6 +20,18 @@ h2, h1{
   color: #0a7bff;
   font-family: "Times New Roman", Times, serif;
 }
-.name{
+.name, a{
   color: white;
+}
+.quote{
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: grey;
+}
+
+.centered{
+  align-items: center;
+}
+.skills-container{
+  background-color: lightblue;
 }
