@@ -6,7 +6,7 @@ class Profile extends Component{
 
     render(){
         return(
-            <div className="profile" id="profile">
+            <div className="padding" id="profile">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 mt-5">
@@ -43,7 +43,7 @@ class Profile extends Component{
                     <div className="container mt-5">
                         <div className="row">
                             <div className="col-12 quote" id="quote1">
-                                <p>"Nothing is particularly hard if you divide it into small jobs." – Henry Ford </p>
+                                <p>"Nothing is particularly hard if you divide it into small jobs." – <strong>Henry Ford</strong> </p>
                             </div>
                         </div>
                     </div>

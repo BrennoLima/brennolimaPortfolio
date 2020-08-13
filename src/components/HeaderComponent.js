@@ -43,17 +43,17 @@ class Header extends Component{
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link m-1" to="/">
-                                        <a className="fa fa-graduation-cap fa-lg"> Education</a>
+                                        <a href="#education" className="fa fa-graduation-cap fa-lg"> Education</a>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link m-1" to="/">
-                                        <a className="fa fa-desktop fa-lg"> Experience</a>
+                                        <a href="#experience" className="fa fa-desktop fa-lg"> Experience</a>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link m-1" to="/">
-                                        <a className="fa fa-gamepad fa-lg"> Hobbies</a>
+                                        <a className="fa fa-gamepad fa-lg" href="#hobbies"> Hobbies</a>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>

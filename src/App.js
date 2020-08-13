@@ -4,7 +4,9 @@ import Header from './components/HeaderComponent'
 import Footer from './components/FooterComponent'
 import Profile from './components/ProfileComponent'
 import Skills from './components/SkillsComponent'
-
+import Education from './components/EducationComponent'
+import Experience from './components/ExperienceComponent'
+import Hobbies from './components/HobbiesComponent'
 class App extends Component {
 
   render() {
@@ -14,6 +16,9 @@ class App extends Component {
         <Header/>
         <Profile/>
         <Skills/>
+        <Education/>
+        <Experience/>
+        <Hobbies/>
         <Footer/>
       </div>
     );

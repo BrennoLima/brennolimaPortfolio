@@ -11,10 +11,13 @@ class Skills extends Component{
         }
         this.RenderSkill = this.RenderSkill.bind(this);
     }
+
+    
+
     RenderSkill({skill}){
         return(
             <div className="col-12 col-md-3 mb-1 mt-1"> 
-                <Card>
+                <Card key={skill.id}>
                     <CardBody>
                         <CardTitle>{skill.name}</CardTitle>
                     </CardBody>
@@ -31,14 +34,15 @@ class Skills extends Component{
             );
         });
         return(
-            <div className="skills" id="skills">
+            <div className="section" id="skills">
                 <div className="container-fluid skills-container">
                     <div className="row">
                         <div className="col-12 mt-5">
-                            <h1>Skills</h1>
+                            <h1 className="black">Skills</h1>
+                            <p className="quote">"Man often becomes what he believes himself to be." - <strong>Mahatma Gandhi</strong> </p>
                         </div>
                     </div>
-                    <div className="row mt-5">
+                    <div className="row mt">
                         {skills}
                     </div>
                     <div className="row mt-5"></div>

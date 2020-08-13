@@ -1,7 +1,18 @@
 .App {
   text-align: center;
 }
-
+.padding{
+  padding-top: 100px;
+}
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+.media-body{
+  text-align: start;
+}
 .footer{
   background-color: #0a7bff;
   margin: 30px 0px 0px 0px;
@@ -10,9 +21,7 @@
 .profile{
   margin-top: 5rem;
 }
-.skills{
- margin-top: 5rem;
-}
+
 .profile-details{
   text-align: left;
 }
@@ -32,6 +41,23 @@ h2, h1{
 .centered{
   align-items: center;
 }
-.skills-container{
+.skills-container, #experience {
   background-color: lightblue;
+}
+.black{
+  color: black;
+}
+.card{
+  border-radius: 2rem;
+}
+img{
+  border-radius: 1rem;
+}
+
+.section{
+  padding-top: 100px;
+  min-height: 700px;
+}
+.mt{
+  margin-top: 6rem;
 }
