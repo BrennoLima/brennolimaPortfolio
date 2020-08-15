@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+body{
+  background-color: #f2ffff;
+}
+body, input, button, textarea{
+  font-family: 'Poppins', sans-serif;
+}
 .padding{
   padding-top: 100px;
 }
@@ -9,6 +15,14 @@
   padding: 50px 0px 50px 0px;
   border-bottom: 1px ridge;
   min-height:400px;
+}
+.header{
+  display: flex;
+  align-items: center;
+}
+.name{
+  font-size: 2rem;
+  height: 2rem;
 }
 .media-body{
   text-align: start;
@@ -27,7 +41,19 @@
 }
 h2, h1{
   color: #0a7bff;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Archivo", Times, serif;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+}
+h3{
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+}
+a{
+  text-decoration: none !important;
+}
+a:hover{
+  color: lightblue;
 }
 .name, a{
   color: white;
@@ -37,12 +63,15 @@ h2, h1{
   font-style: italic;
   color: grey;
 }
-
 .centered{
   align-items: center;
 }
-.skills-container, #experience {
+.skills-container, #experience{
   background-color: lightblue;
+}
+#contact{
+  color:  white;
+  margin: auto;
 }
 .black{
   color: black;
@@ -53,11 +82,25 @@ h2, h1{
 img{
   border-radius: 1rem;
 }
-
 .section{
   padding-top: 100px;
   min-height: 700px;
 }
 .mt{
   margin-top: 6rem;
+}
+
+#icon-linkedin{
+  background-color: blue;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.5rem;
+}
+#icon-mail{
+  font-size: 2rem;
+}
+#icon-github{
+  font-size: 2rem;
+  color: black;
 }

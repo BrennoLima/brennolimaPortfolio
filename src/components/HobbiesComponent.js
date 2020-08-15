@@ -11,7 +11,6 @@ function Hobbies (props){
                 </div>
             </div>
         </div>
-        
     );
 }
 

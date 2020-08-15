@@ -7,6 +7,7 @@ import Skills from './components/SkillsComponent'
 import Education from './components/EducationComponent'
 import Experience from './components/ExperienceComponent'
 import Hobbies from './components/HobbiesComponent'
+
 class App extends Component {
 
   render() {

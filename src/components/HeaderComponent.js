@@ -25,7 +25,7 @@ class Header extends Component{
                 <Navbar dark color="primary" fixed="top" expand="md">
                     <div className="container-fluid">
                         <NavbarToggler onClick={this.toggleNav}/>
-                        <NavbarBrand className="ml-5" href="/">
+                        <NavbarBrand className="mr-1" href="/">
                             <img src={Logo} alt="Logo"/>
                         </NavbarBrand>
                         <h3 className="name">Brenno Lima</h3>
@@ -58,7 +58,7 @@ class Header extends Component{
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link m-1" to="/">
-                                        <a className="fa fa-phone fa-lg"> Contact</a>
+                                        <a href="#contact" className="fa fa-phone fa-lg"> Contact</a>
                                     </NavLink>
                                 </NavItem>
                             </Nav>

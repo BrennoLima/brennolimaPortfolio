@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {SKILLS} from '../shared/skills'
-import { CardBody, Card, CardTitle } from 'reactstrap';
+import { CardBody, Card } from 'reactstrap';
 
 class Skills extends Component{
 
@@ -19,7 +19,7 @@ class Skills extends Component{
             <div className="col-12 col-md-3 mb-1 mt-1"> 
                 <Card key={skill.id}>
                     <CardBody>
-                        <CardTitle>{skill.name}</CardTitle>
+                        {skill.name}
                     </CardBody>
                 </Card>
             </div>
