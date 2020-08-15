@@ -6,7 +6,6 @@ import Profile from './components/ProfileComponent'
 import Skills from './components/SkillsComponent'
 import Education from './components/EducationComponent'
 import Experience from './components/ExperienceComponent'
-import Hobbies from './components/HobbiesComponent'
 
 class App extends Component {
 
@@ -19,7 +18,6 @@ class App extends Component {
         <Skills/>
         <Education/>
         <Experience/>
-        <Hobbies/>
         <Footer/>
       </div>
     );

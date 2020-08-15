@@ -53,11 +53,6 @@ class Header extends Component{
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link m-1" to="/">
-                                        <a className="fa fa-gamepad fa-lg" href="#hobbies"> Hobbies</a>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link m-1" to="/">
                                         <a href="#contact" className="fa fa-phone fa-lg"> Contact</a>
                                     </NavLink>
                                 </NavItem>
