@@ -6,12 +6,13 @@ class Profile extends Component{
 
     render(){
         return(
-            <div className="padding" id="profile">
-                <div className="container">
+            <div className="padding container" id="profile">
                     <div className="row">
                         <div className="col-12 mt-5">
-                            <h1>Profile</h1><br/>
-                            <h5>Web Developer</h5>
+                            <h1>Profile</h1>
+                        </div>
+                        <div className="col-12 mt-4">
+                            <h4>Web Developer</h4>
                         </div>
                     </div>
                     <div className="row mt-5">
@@ -20,14 +21,14 @@ class Profile extends Component{
                             <hr/>
                             <p>Hi! Thanks for visiting my personal page. I am Brenno, from Brazil, and living in Canada since 2017. I am passionate about technology since I was a kid and I always wondered how the computer was able to perform so many amazing things. That curiosity leaded me to study more about computers and to who I am today.</p>
                         </div>
-                        <div className="col-12 col-md-4">
+                        <div className="col-12 col-md-4 mt-2">
                             <Card>
                                 <CardBody>  
                                 <img src={ProfilePicture} alt="Brenno" width="100%"/>
                                 </CardBody>
                             </Card>
                         </div>
-                        <div className="col-12 col-md-3">
+                        <div className="col-12 col-md-3 mt-5">
                             <h2>Details</h2>
                             <hr/>
                             <div className="profile-details">
@@ -47,7 +48,6 @@ class Profile extends Component{
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         );
     }

@@ -17,7 +17,6 @@ body, input, button, textarea{
   min-height:400px;
 }
 .header{
-  display: flex;
   align-items: center;
 }
 .name{
@@ -26,6 +25,16 @@ body, input, button, textarea{
 }
 .media-body{
   text-align: start;
+}
+.exp-logo{
+  width: 12rem;
+}
+.exp-title{
+  text-align: left;
+}
+.exp-text{
+  text-align: left;
+  margin-top: 2rem;
 }
 .footer{
   background-color: #0a7bff;

@@ -21,45 +21,40 @@ class Header extends Component{
 
     render(){
         return(
-            <div class="header">
+            <div className="container-fluid">
                 <Navbar dark color="primary" fixed="top" expand="md">
-                    <div className="container-fluid">
-                        <NavbarToggler onClick={this.toggleNav}/>
-                        <NavbarBrand className="mr-1" href="/">
-                            <img src={Logo} alt="Logo"/>
-                        </NavbarBrand>
-                        <h3 className="name">Brenno Lima</h3>
-                        <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav navbar className="ml-auto">
-                                <NavItem>
-                                    <NavLink className="nav-link m-1" to="/">
-                                        <a href="#profile" className="fa fa-user-circle fa-lg"> Profile</a>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link m-1" to="">
-                                        <a href="#quote1" className="fa fa-calculator fa-lg"> Skills</a>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link m-1" to="/">
-                                        <a href="#education" className="fa fa-graduation-cap fa-lg"> Education</a>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link m-1" to="/">
-                                        <a href="#experience" className="fa fa-desktop fa-lg"> Experience</a>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link m-1" to="/">
-                                        <a href="#contact" className="fa fa-phone fa-lg"> Contact</a>
-                                    </NavLink>
-                                </NavItem>
-                            </Nav>
-                        </Collapse>
-                    </div>
-                </Navbar>
+                    <NavbarToggler onClick={this.toggleNav}/>
+                    <NavbarBrand href="/"><img src={Logo} alt="Logo"/>Brenno Lima</NavbarBrand>
+                    <Collapse isOpen={this.state.isNavOpen} navbar>
+                        <Nav navbar className="ml-auto">
+                            <NavItem>
+                                <NavLink className="nav-link" to="/">
+                                    <a href="#profile" className="fa fa-user-circle fa-lg"> Profile</a>
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink className="nav-link" to="">
+                                    <a href="#skills" className="fa fa-calculator fa-lg"> Skills</a>
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink className="nav-link" to="/">
+                                    <a href="#education" className="fa fa-graduation-cap fa-lg"> Education</a>
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink className="nav-link" to="/">
+                                    <a href="#experience" className="fa fa-desktop fa-lg"> Experience</a>
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink className="nav-link" to="/">
+                                    <a href="#contact" className="fa fa-phone fa-lg"> Contact</a>
+                                </NavLink>
+                            </NavItem>
+                        </Nav>
+                    </Collapse>
+                </Navbar>   
             </div>
         );
     }

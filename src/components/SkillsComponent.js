@@ -34,10 +34,9 @@ class Skills extends Component{
             );
         });
         return(
-            <div className="section" id="skills">
-                <div className="container-fluid skills-container">
+            <div className="section container-fluid skills-container" id="skills">
                     <div className="row">
-                        <div className="col-12 mt-5">
+                        <div className="col-12">
                             <h1 className="black">Skills</h1>
                             <p className="quote">"Man often becomes what he believes himself to be." - <strong>Mahatma Gandhi</strong> </p>
                         </div>
@@ -46,7 +45,6 @@ class Skills extends Component{
                         {skills}
                     </div>
                     <div className="row mt-5"></div>
-                </div>
             </div>
         );
     }
