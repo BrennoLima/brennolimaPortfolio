@@ -12,7 +12,7 @@ class Profile extends Component{
                             <h1>Profile</h1>
                         </div>
                         <div className="col-12 mt-4">
-                            <h4>Web Developer</h4>
+                            <h3>Web Developer</h3>
                         </div>
                     </div>
                     <div className="row mt-5">

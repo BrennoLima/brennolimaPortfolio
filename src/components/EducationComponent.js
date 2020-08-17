@@ -12,7 +12,7 @@ function Education(props) {
                         <h1>Education</h1>
                     </div>
                 </div>
-                <div className="row mt row-content">
+                <div className="row row-content">
                     <div className="col-12">
                         <Media>
                             <Media left href="https://www.senecacollege.ca/home.html">
