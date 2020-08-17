@@ -50,12 +50,10 @@ body, input, button, textarea{
 h2, h1{
   color: #0a7bff;
   font-family: "Archivo", Times, serif;
-  -webkit-text-stroke-width: 0.2px;
-  -webkit-text-stroke-color: black;
+
 }
 h3{
-  -webkit-text-stroke-width: 0.2px;
-  -webkit-text-stroke-color: black;
+
 }
 a{
   text-decoration: none !important;
