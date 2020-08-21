@@ -64,7 +64,6 @@ class Header extends Component{
                         </Collapse>
                     </Navbar>   
                 </OnOutsiceClick>
-                
             </div>
         );
     }

@@ -32,7 +32,7 @@ export const SKILLS = [
     {
         id: 6,
         level: 4,
-        name: "Selenium WebDriver"
+        name: "Selenium"
     },
     {
         id: 7,
