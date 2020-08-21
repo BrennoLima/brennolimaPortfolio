@@ -6,6 +6,8 @@ import Profile from './components/ProfileComponent'
 import Skills from './components/SkillsComponent'
 import Education from './components/EducationComponent'
 import Experience from './components/ExperienceComponent'
+import "animate.css/animate.min.css"
+
 
 class App extends Component {
 

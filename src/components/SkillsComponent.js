@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {SKILLS} from '../shared/skills'
 import { CardBody, Card } from 'reactstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.min.css";
 
 class Skills extends Component{
 
