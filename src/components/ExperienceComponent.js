@@ -11,7 +11,7 @@ function Experience (props) {
                         <h1 className="black">Experience</h1>
                     </div>
                 </div>
-                <ScrollAnimation offset={10} animateIn="animate__backInUp" animateOnce >
+                <ScrollAnimation offset={10} animateIn="animate__fadeInUp" animateOnce >
                     <div className="row mt">
                         <div className="col-12 col-md-3 mb-3">
                             <a href="https://www.cognizant.com/canada"><img src={CognizantLogo} alt="CognizantLogo" className="exp-logo"/></a>

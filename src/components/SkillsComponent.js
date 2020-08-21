@@ -18,7 +18,7 @@ class Skills extends Component{
     RenderSkill({skillName}){
         return(
             <div className="col-12 col-md-3 mb-1 mt-1"> 
-                <ScrollAnimation offset={10} animateIn="animate__backInUp" animateOnce >
+                <ScrollAnimation offset={10} animateIn="animate__fadeInUp" animateOnce >
                     <Card>
                         <CardBody>
                             {skillName}
