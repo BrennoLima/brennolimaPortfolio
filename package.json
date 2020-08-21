@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^4.1.0",
     "bootstrap": "^4.0.0",
     "font-awesome": "^4.7.0",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-animation-components": "^3.0.0",
     "react-dom": "^16.13.1",
     "react-popper": "^0.9.2",
     "react-scripts": "1.1.4",
+    "react-transition-group": "^4.4.1",
     "reactstrap": "^6.5.0"
   },
   "scripts": {

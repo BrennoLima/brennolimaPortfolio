@@ -1,5 +1,4 @@
 import React from 'react';
-import { Media } from 'reactstrap';
 import CognizantLogo from '../assets/images/cognizant-logo.jpg';
 
 function Experience (props) {

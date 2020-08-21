@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {SKILLS} from '../shared/skills'
 import { CardBody, Card } from 'reactstrap';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 class Skills extends Component{
 
@@ -17,11 +19,13 @@ class Skills extends Component{
     RenderSkill({skill}){
         return(
             <div className="col-12 col-md-3 mb-1 mt-1"> 
-                <Card key={skill.id}>
-                    <CardBody>
-                        {skill.name}
-                    </CardBody>
-                </Card>
+                <ScrollAnimation offset="10" animateIn="animate__backInUp" duration="1" animateOnce >
+                    <Card key={skill.id}>
+                        <CardBody>
+                            {skill.name}
+                        </CardBody>
+                    </Card>
+                </ScrollAnimation>
             </div>
         );
     }
