@@ -15,7 +15,7 @@ function Education(props) {
                 </div>
                 <div className="row row-content">
                         <div className="col-12">
-                            <ScrollAnimation offset="10" animateIn="animate__backInUp" duration="1" animateOnce >
+                            <ScrollAnimation offset={10} animateIn="animate__backInUp" animateOnce >
                                 <Media>
                                     <Media left href="https://www.senecacollege.ca/home.html">
                                         <Media object src={SenecaLogo} alt="Seneca College logo"/>
@@ -31,7 +31,7 @@ function Education(props) {
                             </ScrollAnimation>
                         </div>
                         <div className="col-12">
-                            <ScrollAnimation offset="10" animateIn="animate__backInUp" duration="1" animateOnce >
+                            <ScrollAnimation offset={10} animateIn="animate__backInUp" animateOnce >
                                 <Media>
                                     <Media left href="https://www.unb.br/">
                                         <Media object src={UNBLogo} alt="Seneca College logo"/>

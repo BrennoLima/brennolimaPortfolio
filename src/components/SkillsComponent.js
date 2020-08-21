@@ -15,13 +15,13 @@ class Skills extends Component{
 
     
 
-    RenderSkill({skill}){
+    RenderSkill({skillName}){
         return(
             <div className="col-12 col-md-3 mb-1 mt-1"> 
-                <ScrollAnimation offset="10" animateIn="animate__backInUp" duration="1" animateOnce >
-                    <Card key={skill.id}>
+                <ScrollAnimation offset={10} animateIn="animate__backInUp" animateOnce >
+                    <Card>
                         <CardBody>
-                            {skill.name}
+                            {skillName}
                         </CardBody>
                     </Card>
                 </ScrollAnimation>
@@ -33,7 +33,7 @@ class Skills extends Component{
 
         const skills = this.state.skills.map((skill) => {
             return (
-                <this.RenderSkill skill={skill}/>
+                <this.RenderSkill skillName={skill.name} key={skill.id}/>
             );
         });
         return(

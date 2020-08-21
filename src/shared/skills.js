@@ -1,11 +1,11 @@
 export const SKILLS = [
     {
-        id: 1,
+        id: 0,
         level: 3,
         name: "JavaScript"
     },
     {
-        id: 0,
+        id: 1,
         level: 4,
         name: "Java"
     },
@@ -15,27 +15,27 @@ export const SKILLS = [
         name: "React"
     },
     {
-        id: 4,
+        id: 3,
         level: 5,
         name: "SQL"
     },
     {
-        id: 10,
+        id: 4,
         level: 4,
         name: "Test Automation"
     },
     {
-        id: 11,
+        id: 5,
         level: 4,
         name: "Manual Testing"
     },
     {
-        id: 14,
+        id: 6,
         level: 4,
         name: "Selenium WebDriver"
     },
     {
-        id: 9,
+        id: 7,
         level: 4,
         name: "Robot Framework"
         
@@ -46,39 +46,39 @@ export const SKILLS = [
         name: "Bootstrap"
     },
     {
-        id: 7,
+        id: 9,
         level: 4,
         name: "CSS"
     },
     {   
-        id: 5,
+        id: 10,
         level: 4,
         name: "HTML"
         
     },
     {
-        id: 4,
+        id: 11,
         level: 4,
         name: "MVC"
     },
     {
-        id: 13,
+        id: 12,
         level: 4,
         name: "Unix"
         
     },
     {
-        id: 15,
+        id: 13,
         level: 4,
         name: "Oracle Database"
     },
     {
-        id: 6,
+        id: 14,
         level: 3,
         name: "Python"
     },
     {
-        id: 12,
+        id: 15,
         level: 3,
         name: "C"
     },

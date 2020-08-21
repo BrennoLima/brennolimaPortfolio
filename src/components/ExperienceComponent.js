@@ -4,14 +4,14 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 function Experience (props) {
     return(
-        <div className="section" id="experience" fluid>
+        <div className="section" id="experience" fluid="true">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <h1 className="black">Experience</h1>
                     </div>
                 </div>
-                <ScrollAnimation offset="10" animateIn="animate__backInUp" duration="1" animateOnce >
+                <ScrollAnimation offset={10} animateIn="animate__backInUp" animateOnce >
                     <div className="row mt">
                         <div className="col-12 col-md-3 mb-3">
                             <a href="https://www.cognizant.com/canada"><img src={CognizantLogo} alt="CognizantLogo" className="exp-logo"/></a>

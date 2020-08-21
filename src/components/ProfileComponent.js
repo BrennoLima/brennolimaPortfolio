@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Card, CardBody, Label} from 'reactstrap';
 import ProfilePicture from '../assets/images/Image-3.jpg'
+import ResumePDF from '../shared/BrennoLimaResume.pdf'
+import ResumeDOCX from '../shared/BrennoLimaResume.docx'
 
 class Profile extends Component{
 
@@ -28,7 +30,7 @@ class Profile extends Component{
                                 </CardBody>
                             </Card>
                         </div>
-                        <div className="col-12 col-md-3 mt-5">
+                        <div className="col-12 col-md-3 mt-5 mt-md-0">
                             <h2>Details</h2>
                             <hr/>
                             <div className="profile-details">
@@ -37,7 +39,10 @@ class Profile extends Component{
                                 <Label><b>Age:</b></Label><br/>
                                 <Label>23 years</Label><br/>
                                 <Label><b>Location:</b></Label><br/>
-                                <Label>Toronto, ON.</Label><br/><br/>
+                                <Label>Toronto, ON.</Label><br/>
+                                <Label><b>Resume:</b></Label><br/>
+                                <a className="black fa fa-file-word-o" href={ResumeDOCX} download> Resume.docx</a><br/>
+                                <a className="black fa fa-file-pdf-o" href={ResumePDF} download> Resume.pdf</a>
                             </div>
                         </div>
                     </div>
