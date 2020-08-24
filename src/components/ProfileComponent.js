@@ -3,6 +3,7 @@ import {Card, CardBody, Label} from 'reactstrap';
 import ProfilePicture from '../assets/images/Image-3.jpg'
 import ResumePDF from '../shared/BrennoLimaResume.pdf'
 import ResumeDOCX from '../shared/BrennoLimaResume.docx'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Profile extends Component{
 
@@ -14,14 +15,19 @@ class Profile extends Component{
                             <h1>Profile</h1>
                         </div>
                         <div className="col-12 mt-4">
-                            <h3>Web Developer</h3>
+                            <ScrollAnimation offset={10} animateIn="animate__fadeInDown" animateOnce delay={300}>
+                                <h3>Web Developer</h3>
+                            </ScrollAnimation>
                         </div>
                     </div>
                     <div className="row mt-5">
-                        <div className="col-12 col-md-3 offset-md-1">
+                        <div className="col-12 col-md-3 offset-md-1">        
                             <h2>About Me</h2>
                             <hr/>
-                            <p>Hi! Thanks for visiting my personal page. I am Brenno, from Brazil, and living in Canada since 2017. I am passionate about technology since I was a kid and I always wondered how the computer was able to perform so many amazing things. That curiosity leaded me to study more about computers and to who I am today.</p>
+                            <ScrollAnimation offset={10} animateIn="animate__fadeInLeft" animateOnce delay={300}>
+                                <p>Hi! Thanks for visiting my personal page. I am Brenno, from Brazil, and living in Canada since 2017. I am passionate about technology since I was a kid and I always wondered how the computer was able to perform so many amazing things. That curiosity leaded me to study more about computers and to who I am today.</p>
+                            </ScrollAnimation>
+                            
                         </div>
                         <div className="col-12 col-md-4 mt-2">
                             <Card>
@@ -34,6 +40,7 @@ class Profile extends Component{
                             <h2>Details</h2>
                             <hr/>
                             <div className="profile-details">
+                            <ScrollAnimation offset={10} animateIn="animate__fadeInRight" animateOnce delay={300}>
                                 <Label><b>Name:</b></Label><br/>
                                 <Label>Brenno Cesar Ferreira Lima</Label><br/>
                                 <Label><b>Age:</b></Label><br/>
@@ -43,6 +50,7 @@ class Profile extends Component{
                                 <Label><b>Resume:</b></Label><br/>
                                 <a className="black fa fa-file-word-o" href={ResumeDOCX} download> Resume.docx</a><br/>
                                 <a className="black fa fa-file-pdf-o" href={ResumePDF} download> Resume.pdf</a>
+                                </ScrollAnimation>
                             </div>
                         </div>
                     </div>
