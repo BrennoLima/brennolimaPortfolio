@@ -32,46 +32,44 @@ class Header extends Component{
                 <OnOutsiceClick onOutsideClick={this.closeNav}>
                     <Navbar dark color="primary" fixed="top" expand="md">
                         <NavbarToggler onClick={this.toggleNav}/>
-                        <ScrollAnimation offset={10} animateIn="animate__fadeInLeft" animateOnce delay={300}>
                             <NavbarBrand href="/"><img src={Logo} alt="Logo"/>Brenno Lima</NavbarBrand>
-                        </ScrollAnimation>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar className="ml-auto">
-                                <NavItem>
-                                    <NavLink className="nav-link" href="#profile">
-                                        <ScrollAnimation offset={10} animateIn="animate__fadeInRight" animateOnce delay={300}>
+                                <ScrollAnimation offset={0} animateIn="animate__fadeInRight" animateOnce delay={200}>
+                                    <NavItem>
+                                        <NavLink className="nav-link" href="#profile">
                                             <span className="fa fa-user-circle fa-lg"> Profile</span>
-                                        </ScrollAnimation>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" href="#skills">
-                                        <ScrollAnimation offset={10} animateIn="animate__fadeInRight" animateOnce delay={300}>
+                                        </NavLink>
+                                    </NavItem>
+                                </ScrollAnimation>
+                                <ScrollAnimation offset={0} animateIn="animate__fadeInRight" animateOnce delay={200}>
+                                    <NavItem>
+                                        <NavLink className="nav-link" href="#skills">
                                             <span  className="fa fa-calculator fa-lg"> Skills</span>
-                                        </ScrollAnimation>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" href="#education">
-                                        <ScrollAnimation offset={10} animateIn="animate__fadeInRight" animateOnce delay={300}>
+                                        </NavLink>
+                                    </NavItem>
+                                </ScrollAnimation>
+                                <ScrollAnimation offset={0} animateIn="animate__fadeInRight" animateOnce delay={200}>
+                                    <NavItem>
+                                        <NavLink className="nav-link" href="#education">
                                             <span className="fa fa-graduation-cap fa-lg"> Education</span>
-                                        </ScrollAnimation>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" href="#experience">
-                                        <ScrollAnimation offset={10} animateIn="animate__fadeInRight" animateOnce delay={300}>
+                                        </NavLink>
+                                    </NavItem>
+                                </ScrollAnimation>
+                                <ScrollAnimation offset={0} animateIn="animate__fadeInRight" animateOnce delay={200}>
+                                    <NavItem>
+                                        <NavLink className="nav-link" href="#experience">
                                             <span  className="fa fa-desktop fa-lg"> Experience</span>
-                                        </ScrollAnimation>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" href="#contact">
-                                        <ScrollAnimation offset={10} animateIn="animate__fadeInRight" animateOnce delay={300}>
+                                        </NavLink>
+                                    </NavItem>
+                                </ScrollAnimation>
+                                <ScrollAnimation offset={0} animateIn="animate__fadeInRight" animateOnce delay={200}>
+                                    <NavItem>
+                                        <NavLink className="nav-link" href="#contact">
                                             <span  className="fa fa-phone fa-lg"> Contact</span>
-                                        </ScrollAnimation>
-                                    </NavLink>
-                                </NavItem>
+                                        </NavLink>
+                                    </NavItem>
+                                </ScrollAnimation>
                             </Nav>
                         </Collapse>
                     </Navbar>   
