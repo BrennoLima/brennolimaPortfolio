@@ -14,18 +14,18 @@ function Footer(props){
                     </div>
                     <div className="col-12 col-md-3 mt-2">
                         <ScrollAnimation offset={10} animateIn="animate__fadeInLeft" animateOnce >
-                            <a className="fa fa-linkedin" id="icon-linkedin" href="https://www.linkedin.com/in/brennocesarlima/"> </a>{'  '}/brennolima
+                            <a className="fa fa-linkedin-square" id="icon-linkedin" href="https://www.linkedin.com/in/brennocesarlima/"> /brennolima</a>
                         </ScrollAnimation>
                         
                     </div>
                     <div className="col-12 col-md-3 mt-2">
                         <ScrollAnimation offset={10} animateIn="animate__fadeInLeft" animateOnce >
-                            <a className="fa fa-envelope fa-lg" id="icon-mail" href="mailto:brennocesar@live.com"> </a> {'  '}brennocesar@live.com
+                            <a className="fa fa-envelope fa-lg" id="icon-mail" href="mailto:brennocesar@live.com"> brennocesar@live.com</a>
                         </ScrollAnimation>
                     </div>
                     <div className="col-12 col-md-3 mt-2">
                         <ScrollAnimation offset={10} animateIn="animate__fadeInLeft" animateOnce >
-                            <a className="fa fa-github fa-lg" id="icon-github" href="https://github.com/BrennoLima"> </a> {'  '}/brennolima
+                            <a className="fa fa-github fa-lg" id="icon-github" href="https://github.com/BrennoLima"> /brennolima </a>
                         </ScrollAnimation>
                     </div>
                 </div>

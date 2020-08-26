@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import {Card, CardBody, Label} from 'reactstrap';
-import ProfilePicture from '../assets/images/Image-3.jpg'
-import ResumePDF from '../shared/BrennoLimaResume.pdf'
-import ResumeDOCX from '../shared/BrennoLimaResume.docx'
+import ProfilePicture from '../assets/images/b082020.jpg'
+import ResumePDF from '../shared/BrennoLima082020.pdf'
 import ScrollAnimation from 'react-animate-on-scroll';
 
 class Profile extends Component{
@@ -48,7 +47,6 @@ class Profile extends Component{
                                 <Label><b>Location:</b></Label><br/>
                                 <Label>Toronto, ON.</Label><br/>
                                 <Label><b>Resume:</b></Label><br/>
-                                <a className="black fa fa-file-word-o" href={ResumeDOCX} download> Resume.docx</a><br/>
                                 <a className="black fa fa-file-pdf-o" href={ResumePDF} download> Resume.pdf</a>
                                 </ScrollAnimation>
                             </div>

@@ -37,7 +37,7 @@ class Header extends Component{
                             <Nav navbar className="ml-auto">
                                 <ScrollAnimation offset={0} animateIn="animate__fadeInRight" animateOnce delay={200}>
                                     <NavItem>
-                                        <NavLink className="nav-link" href="#profile">
+                                        <NavLink className="nav-link nav-custom" href="#profile">
                                             <span className="fa fa-user-circle fa-lg"> Profile</span>
                                         </NavLink>
                                     </NavItem>
