@@ -24,7 +24,7 @@ class Profile extends Component{
                             <h2>About Me</h2>
                             <hr/>
                             <ScrollAnimation offset={10} animateIn="animate__fadeInLeft" animateOnce delay={300}>
-                                <p>Hi! Thanks for visiting my personal page. I am Brenno, from Brazil, and living in Canada since 2017. I am passionate about technology since I was a kid and I always wondered how the computer was able to perform so many amazing things. That curiosity leaded me to study more about computers and to who I am today.</p>
+                                <p>Hi! Thanks for visiting my personal page. I am Brenno, living in Canada since 2017. I am passionate about technology since I was a kid and I always wondered how the computer was able to perform so many amazing things. That curiosity leaded me to study more about computers and to who I am today.</p>
                             </ScrollAnimation>
                             
                         </div>
@@ -42,8 +42,6 @@ class Profile extends Component{
                             <ScrollAnimation offset={10} animateIn="animate__fadeInRight" animateOnce delay={300}>
                                 <Label><b>Name:</b></Label><br/>
                                 <Label>Brenno Cesar Ferreira Lima</Label><br/>
-                                <Label><b>Age:</b></Label><br/>
-                                <Label>23 years</Label><br/>
                                 <Label><b>Location:</b></Label><br/>
                                 <Label>Toronto, ON.</Label><br/>
                                 <Label><b>Resume:</b></Label><br/>
