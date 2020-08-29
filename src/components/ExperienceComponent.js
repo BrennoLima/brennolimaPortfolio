@@ -20,10 +20,12 @@ function Experience (props) {
                             <h3>Cognizant - Junior Programmer Analyst (QA)</h3>
                             <h6>Aug 2019 - Mar 2020</h6>
                             <div className="exp-text">
-                                <p>• Produce clean, and efficient code based on client specifications (financial sector).</p>
-                                <p>• Develop, organize, and execute detailed comprehensive and well-structured test plans and test cases to prevent failure in essential features (manual and automated).</p>
-                                <p>• Collaborate with developers to identify and fix root-cause bugs.</p>
+                                <p>• Review code for accuracy and run tests for quality assurance.</p>
+                                <p>• Perform regression, and integration testing to verify software quality.</p>
+                                <p>• Analyze customer needs to create and implement appropriate solutions.</p>
+                                <p>• Collaborated with developers to identify and fix root-cause bugs.</p>
                                 <p>• Troubleshoot, debug, and upgrade existing software to meet client needs.</p>
+                                <p>• Develop, organize, and execute test plans and test cases to prevent failure in essential features (Manual and Automated).</p>
                             </div>
                         </div>
                     </div>
