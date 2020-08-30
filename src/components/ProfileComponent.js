@@ -15,7 +15,7 @@ class Profile extends Component{
                         </div>
                         <div className="col-12 mt-4">
                             <ScrollAnimation offset={10} animateIn="animate__fadeInDown" animateOnce delay={300}>
-                                <h3>Web Developer</h3>
+                                <h3 className="font-fam black">Web Developer</h3>
                             </ScrollAnimation>
                         </div>
                     </div>

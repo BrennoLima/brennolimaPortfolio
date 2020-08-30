@@ -16,10 +16,13 @@ function Experience (props) {
                         <div className="col-12 col-md-3 mb-3">
                             <a href="https://www.cognizant.com/canada"><img src={CognizantLogo} alt="CognizantLogo" className="exp-logo"/></a>
                         </div>
-                        <div className="col-12 col-md-9 exp-title">
-                            <h3>Cognizant - Junior Programmer Analyst (QA)</h3>
-                            <h6>Aug 2019 - Mar 2020</h6>
+                        <div className="col-12 col-md-9 exp-content">
+                            <div className="exp-title">
+                                <h3>Junior Programmer Analyst (QA)</h3>
+                                <h6>Aug 2019 - Mar 2020</h6>
+                            </div>
                             <div className="exp-text">
+                                <p className="exp-technologies">Python - Robot Framework  |  Java - Selenium</p>
                                 <p>• Review code for accuracy and run tests for quality assurance.</p>
                                 <p>• Perform regression, and integration testing to verify software quality.</p>
                                 <p>• Analyze customer needs to create and implement appropriate solutions.</p>

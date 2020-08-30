@@ -29,12 +29,31 @@ body, input, button, textarea{
 .exp-logo{
   width: 12rem;
 }
-.exp-title{
+.exp-content{
   text-align: left;
 }
 .exp-text{
   text-align: left;
   margin-top: 2rem;
+}
+.exp-technologies{
+  text-align: center;
+  background-color: #f2ffff96;
+  border-radius: 2rem;
+}
+.exp-title{
+  text-align: center;
+}
+@media screen and (min-width: 900px){
+  .exp-technologies{
+    text-align: center;
+    background-color: #f2ffff96;
+    border-radius: 2rem;
+    max-width: 60%;
+  }
+  .exp-title{
+    text-align: left;
+  }
 }
 .footer{
   background-color: #0a7bff;
@@ -47,9 +66,10 @@ body, input, button, textarea{
 .profile-details{
   text-align: left;
 }
-h2, h1{
+h2, h1, .font-fam{
   color: #0a7bff;
-  font-family: "Archivo", Times, serif;
+  /*font-family: "Archivo", Times, serif;*/
+  font-family: 'Roboto Slab', serif;
 }
 a{
   text-decoration: none !important;

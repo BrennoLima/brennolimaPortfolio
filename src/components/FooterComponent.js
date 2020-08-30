@@ -25,7 +25,7 @@ function Footer(props){
                     </div>
                     <div className="col-12 col-md-3 mt-2">
                         <ScrollAnimation offset={10} animateIn="animate__fadeInLeft" animateOnce >
-                            <a className="fa fa-github fa-lg" id="icon-github" href="https://github.com/BrennoLima"> /brennolima </a>
+                            <a className="fa fa-github fa-lg" id="icon-github" href="https://github.com/BrennoLima"> /brennocesarlima </a>
                         </ScrollAnimation>
                     </div>
                 </div>
