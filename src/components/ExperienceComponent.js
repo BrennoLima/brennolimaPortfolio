@@ -22,7 +22,6 @@ function Experience (props) {
                                 <h6>Aug 2019 - Mar 2020</h6>
                             </div>
                             <div className="exp-text">
-                                <p className="exp-technologies">Python - Robot Framework  |  Java - Selenium</p>
                                 <p>• Review code for accuracy and run tests for quality assurance.</p>
                                 <p>• Perform regression, and integration testing to verify software quality.</p>
                                 <p>• Analyze customer needs to create and implement appropriate solutions.</p>
