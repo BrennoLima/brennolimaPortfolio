@@ -1,7 +1,7 @@
 import React from 'react';
 import { Media } from 'reactstrap';
-import SenecaLogo from '../assets/images/seneca-logo.png';
-import UNBLogo from '../assets/images/unb-logo.jpg';
+import SenecaLogo from '../assets/images/seneca-logo2.png';
+import UNBLogo from '../assets/images/unb-logo2.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 function Education(props) {
