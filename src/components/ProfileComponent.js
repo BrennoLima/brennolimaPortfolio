@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Card, CardBody, Label} from 'reactstrap';
 import ProfilePicture from '../assets/images/b082020.jpg'
-import ResumePDF from '../shared/BrennoLima092020.pdf'
+import ResumePDF from '../shared/BrennoLima102020.pdf'
 import ScrollAnimation from 'react-animate-on-scroll';
 
 class Profile extends Component{
