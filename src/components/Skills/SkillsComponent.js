@@ -1,6 +1,7 @@
 import React from 'react';
-import { SKILLS } from '../shared/skills';
+import { SKILLS } from '../../shared/skills';
 import { Rating, List, Segment, Grid } from 'semantic-ui-react';
+import './skills.css';
 
 const Skills = () => {
 	const RenderSkill = ({ skill }) => {
@@ -87,39 +88,43 @@ const Skills = () => {
 
 	return (
 		<div className='container-fluid skills-container' id='skills'>
-			<div className='row pt-5 pb-5'>
-				<div className='col-12'>
-					<h1 className='black'>Skills</h1>
-					<p className='quote'>
-						"Man often becomes what he believes himself to be." -{' '}
-						<strong>Mahatma Gandhi</strong>
-					</p>
+			<div className='container'>
+				<div className='row pt-5 pb-5'>
+					<div className='col-12'>
+						<h1 className='skills-title'>Skills</h1>
+						<p>
+							<i>
+								"Man often becomes what he believes himself to be." -{' '}
+								<strong>Mahatma Gandhi</strong>
+							</i>
+						</p>
+					</div>
 				</div>
+				<Segment>
+					<Grid columns={2} divided stackable>
+						<Grid.Column>
+							<List selection verticalAlign='middle'>
+								{skillsLanguagesHeader}
+								{skillsLanguages}
+								{skillsFrontHeader}
+								{skillsFront}
+								{skillsBackHeader}
+								{skillsBack}
+							</List>
+						</Grid.Column>
+						<Grid.Column>
+							<List selection verticalAlign='middle'>
+								{skillsDataHeader}
+								{skillsData}
+								{skillsTestHeader}
+								{skillsTest}
+								{skillsIndustryHeader}
+								{skillsIndustry}
+							</List>
+						</Grid.Column>
+					</Grid>
+				</Segment>
 			</div>
-			<Segment>
-				<Grid columns={2} divided stackable>
-					<Grid.Column>
-						<List selection verticalAlign='middle'>
-							{skillsLanguagesHeader}
-							{skillsLanguages}
-							{skillsFrontHeader}
-							{skillsFront}
-							{skillsBackHeader}
-							{skillsBack}
-						</List>
-					</Grid.Column>
-					<Grid.Column>
-						<List selection verticalAlign='middle'>
-							{skillsDataHeader}
-							{skillsData}
-							{skillsTestHeader}
-							{skillsTest}
-							{skillsIndustryHeader}
-							{skillsIndustry}
-						</List>
-					</Grid.Column>
-				</Grid>
-			</Segment>
 		</div>
 	);
 };

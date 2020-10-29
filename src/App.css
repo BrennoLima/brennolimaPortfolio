@@ -4,49 +4,22 @@
 body {
 	background-color: #f2ffff;
 }
-body,
-input,
-button,
-textarea {
-	font-family: 'Poppins', sans-serif;
+.black {
+	color: black;
 }
-.padding {
-	padding-top: 100px;
+.blue {
+	color: blue;
 }
-.row-content {
-	margin: 0px auto;
-	padding: 50px 0px 50px 0px;
-	border-bottom: 1px ridge;
-	min-height: 400px;
-}
-.header {
-	align-items: center;
-}
-.name {
-	font-size: 2rem;
-	height: 2rem;
-}
-.media-body {
-	text-align: start;
-}
-.exp-logo {
-	width: 12rem;
-}
-.exp-content {
-	text-align: left;
-}
-.exp-text {
-	text-align: left;
-	margin-top: 2rem;
-}
-.exp-technologies {
-	text-align: center;
-	background-color: #f2ffff96;
-	border-radius: 2rem;
-}
-.exp-title {
+.center-align-text {
 	text-align: center;
 }
+.left-align {
+	text-align: left;
+}
+p {
+	line-height: 1.7rem;
+}
+
 @media screen and (min-width: 900px) {
 	.exp-technologies {
 		text-align: center;
@@ -62,16 +35,9 @@ textarea {
 	background-color: #0a7bff;
 	padding: 20px 0px 20px 0px;
 }
-.profile {
-	margin-top: 5rem;
-}
 
-.profile-details {
-	text-align: left;
-}
 h2,
-h1,
-.font-fam {
+h1 {
 	color: #0a7bff;
 }
 a {
@@ -84,41 +50,13 @@ a:hover {
 a {
 	color: white;
 }
-.quote {
-	font-family: 'Times New Roman', Times, serif;
-	font-style: italic;
-	color: grey;
-}
-.centered {
-	align-items: center;
-}
 
-.skills-container {
-	width: 100%;
-}
-.skills-container,
-#experience {
-	background-color: lightblue;
-}
 #contact {
 	color: #97caef;
 	margin: auto;
 }
 .black {
 	color: black;
-}
-.card {
-	border-radius: 2rem;
-}
-img {
-	border-radius: 1rem;
-}
-.section {
-	padding-top: 100px;
-	min-height: 700px;
-}
-.mt {
-	margin-top: 6rem;
 }
 
 #icon-linkedin {
