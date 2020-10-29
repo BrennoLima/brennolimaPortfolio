@@ -67,7 +67,7 @@ const Experience = () => {
 						<h1 className='black'>Recent Projects and Designs</h1>
 					</div>
 				</div>
-				<Grid columns={3} divided>
+				<Grid columns={3} divided stackable>
 					<Grid.Row>
 						<Grid.Column>
 							<Item.Group className='left-align'>
