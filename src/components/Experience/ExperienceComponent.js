@@ -1,7 +1,9 @@
 import React from 'react';
-import { Item } from 'semantic-ui-react';
+import { Item, Grid } from 'semantic-ui-react';
 import CognizantLogo from '../../assets/images/cognizant-logo.png';
 import SparkLogo from '../../assets/images/spark-logo.png';
+import ADVRLogo from '../../assets/images/advr-logo.png';
+import DevLogo from '../../assets/images/devconnector-logo.png';
 import './experience.css';
 
 const Experience = () => {
@@ -65,32 +67,116 @@ const Experience = () => {
 						<h1 className='black'>Recent Projects and Designs</h1>
 					</div>
 				</div>
+				<Grid columns={3} divided>
+					<Grid.Row>
+						<Grid.Column>
+							<Item.Group className='left-align'>
+								<Item>
+									<Item.Image
+										size='tiny'
+										src={SparkLogo}
+										alt='Spark logo'
+										as='a'
+										href='https://sparklearning.herokuapp.com/'
+									/>
 
-				<Item.Group className='left-align'>
-					<Item>
-						<Item.Image
-							size='tiny'
-							src={SparkLogo}
-							alt='Cognizant logo'
-							as='a'
-							href='https://sparklearning.herokuapp.com/'
-						/>
+									<Item.Content verticalAlign='middle'>
+										<Item.Header>Spark Learning</Item.Header>
+										<Item.Meta>REST API - 2020</Item.Meta>
+										<Item.Meta>E-learning platform</Item.Meta>
+										<Item.Description>
+											Database: <strong>MongoDB</strong>
+										</Item.Description>
+										<Item.Description>
+											Back-End: <strong>NodeJS/ExpressJS</strong>
+										</Item.Description>
+										<Item.Description>
+											Front-End: <strong>React/Redux</strong>
+										</Item.Description>
+										<Item.Description>
+											<a
+												className='fa fa-github fa-lg black'
+												href='https://github.com/BrennoLima/Spark'
+											>
+												GitHub
+											</a>
+										</Item.Description>
+									</Item.Content>
+								</Item>
+							</Item.Group>
+						</Grid.Column>
+						<Grid.Column>
+							<Item.Group className='left-align'>
+								<Item>
+									<Item.Image
+										size='tiny'
+										src={ADVRLogo}
+										alt='ADVR logo'
+										as='a'
+										href='https://master.d2c26cs6suk604.amplifyapp.com/'
+									/>
 
-						<Item.Content verticalAlign='middle'>
-							<Item.Header>Spark Learning</Item.Header>
-							<Item.Meta>REST API - 2020</Item.Meta>
-							<Item.Description>
-								Database: <strong>MongoDB</strong>
-							</Item.Description>
-							<Item.Description>
-								Back-End: <strong>NodeJS/ExpressJS</strong>
-							</Item.Description>
-							<Item.Description>
-								Front-End: <strong>React/Redux</strong>
-							</Item.Description>
-						</Item.Content>
-					</Item>
-				</Item.Group>
+									<Item.Content verticalAlign='middle'>
+										<Item.Header>ADVR</Item.Header>
+										<Item.Meta>Front End Design - 2020</Item.Meta>
+										<Item.Meta>Travel Blog</Item.Meta>
+										<Item.Description>
+											Front-End: <strong>React, Redux</strong>
+										</Item.Description>
+										<Item.Description>
+											<strong>Fully responsible</strong>
+										</Item.Description>
+										<Item.Description>
+											<a
+												className='fa fa-github fa-lg black'
+												href='https://github.com/BrennoLima/ADVR'
+											>
+												GitHub
+											</a>
+										</Item.Description>
+									</Item.Content>
+								</Item>
+							</Item.Group>
+						</Grid.Column>
+						<Grid.Column>
+							<Item.Group className='left-align'>
+								<Item>
+									<Item.Image
+										size='tiny'
+										src={DevLogo}
+										alt='DevConnector logo'
+										as='a'
+										href='https://devconnectorreactapp.herokuapp.com/'
+									/>
+
+									<Item.Content verticalAlign='middle'>
+										<Item.Header>DevConnector</Item.Header>
+										<Item.Meta>REST API - 2020</Item.Meta>
+										<Item.Meta>Developers Social Media</Item.Meta>
+										<Item.Description>
+											Database: <strong>MongoDB</strong>
+										</Item.Description>
+										<Item.Description>
+											Back-End: <strong>NodeJS/ExpressJS</strong>
+										</Item.Description>
+										<Item.Description>
+											Front-End: <strong>React/Redux</strong>
+										</Item.Description>
+										<Item.Description>
+											<a
+												className='fa fa-github fa-lg black'
+												href='https://github.com/BrennoLima/DevConnector'
+											>
+												GitHub
+											</a>
+										</Item.Description>
+									</Item.Content>
+								</Item>
+							</Item.Group>
+						</Grid.Column>
+					</Grid.Row>
+				</Grid>
+
 				<div className='row justify-content-center pt-5 pb-5'>
 					<i>
 						“You don’t have to see the whole staircase, just take the first
