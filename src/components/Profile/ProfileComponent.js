@@ -22,7 +22,7 @@ const Profile = () => {
 							that time!). I've joined a Computer Science University in 2014 to
 							pursue my career in IT, and have been gathering knowledge until
 							then. A fast and adaptative learner, organized and committed
-							professional with good communicaiton skills, positive and can do
+							professional with good communication skills, positive and can do
 							attitude.
 						</p>
 					</div>

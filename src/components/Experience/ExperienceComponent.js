@@ -63,7 +63,7 @@ const Experience = () => {
 				</Item.Group>
 				<hr />
 				<div className='row mb-5 mt-5'>
-					<div className='col-12'>
+					<div className='col-12 mb-5'>
 						<h1 className='black'>Recent Projects and Designs</h1>
 					</div>
 				</div>
@@ -178,7 +178,7 @@ const Experience = () => {
 				</Grid>
 
 				<div className='row justify-content-center pt-5 pb-5'>
-					<i>
+					<i className='mt-5'>
 						“You don’t have to see the whole staircase, just take the first
 						step.” – <strong>Martin Luther King, Jr.</strong>
 					</i>

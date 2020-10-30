@@ -6,7 +6,7 @@ import './skills.css';
 const Skills = () => {
 	const RenderSkill = ({ skill }) => {
 		return (
-			<List.Item>
+			<List.Item id={skill.name}>
 				<List.Content floated='left'>{skill.name}</List.Content>
 				<List.Content floated='right'>
 					<Rating
