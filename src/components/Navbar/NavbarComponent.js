@@ -9,7 +9,7 @@ import {
 	NavbarToggler,
 } from 'reactstrap';
 import OnOutsiceClick from 'react-outclick';
-import Logo from '../../assets/images/logo-blue.gif';
+import Logo from '../../assets/images/bl-logo.png';
 
 const NavbarComponent = () => {
 	const [Navb, setNavbar] = useState(false);
@@ -24,8 +24,7 @@ const NavbarComponent = () => {
 		<OnOutsiceClick onOutsideClick={closeNav}>
 			<Navbar dark color='primary' fixed='top' expand='md'>
 				<NavbarBrand href='/'>
-					<img src={Logo} alt='Logo' />
-					Brenno Lima
+					<img src={Logo} alt='Logo' className='logo-bl' /> Brenno Lima
 				</NavbarBrand>
 				<NavbarToggler onClick={toggleNav} />
 				<Collapse isOpen={Navb} navbar>

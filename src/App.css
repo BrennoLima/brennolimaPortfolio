@@ -50,7 +50,9 @@ a:hover {
 a {
 	color: white;
 }
-
+.logo-bl {
+	max-width: 4rem;
+}
 #contact {
 	color: #97caef;
 	margin: auto;
