@@ -10,13 +10,13 @@ const Education = () => {
 	return (
 		<div className='container education-container' id='education'>
 			<div className='row mb-5'>
-				<div className='col-12'>
+				<div className='col-12 mb-5'>
 					<h1>Education</h1>
 				</div>
 			</div>
 
-			<Item.Group className='left-align'>
-				<Item>
+			<Item.Group className='left-align mb-5'>
+				<Item className='mb-5'>
 					<Item.Image
 						size='small'
 						src={SenecaLogo}
@@ -34,7 +34,7 @@ const Education = () => {
 					</Item.Content>
 				</Item>
 				<hr />
-				<Item>
+				<Item className='mt-5 mb-5'>
 					<Item.Image
 						size='small'
 						src={UNBLogo}
@@ -55,8 +55,8 @@ const Education = () => {
 					<h1>Licenses and Certifications</h1>
 				</div>
 			</div>
-			<Item.Group className='left-align'>
-				<Item>
+			<Item.Group className='left-align mt-5 mb-5'>
+				<Item className='mt-5 mb-5'>
 					<Item.Image
 						size='tiny'
 						src={CourseraLogo}
@@ -82,7 +82,7 @@ const Education = () => {
 					</Item.Content>
 				</Item>
 				<hr />
-				<Item>
+				<Item className='mt-5 mb-5'>
 					<Item.Image
 						size='tiny'
 						src={UdemyLogo}

@@ -12,10 +12,10 @@ const Experience = () => {
 			<div className='container'>
 				<div className='row mb-5'>
 					<div className='col-12'>
-						<h1 className='black'>Experience</h1>
+						<h1 className='black mb-5'>Experience</h1>
 					</div>
 				</div>
-				<Item.Group className='left-align'>
+				<Item.Group className='left-align mt-5 mb-5'>
 					<Item>
 						<Item.Image
 							size='small'
