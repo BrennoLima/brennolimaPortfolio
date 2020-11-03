@@ -48,6 +48,12 @@ export const SKILLS = [
 		type: 'front',
 	},
 	{
+		level: 3,
+		name: 'Apollo',
+		time: '1',
+		type: 'front',
+	},
+	{
 		level: 3.5,
 		name: 'NodeJS',
 		time: '1',
@@ -126,5 +132,11 @@ export const SKILLS = [
 		name: 'Agile',
 		time: '2',
 		type: 'industry',
+	},
+	{
+		level: 3,
+		name: 'GraphQL',
+		time: '1',
+		type: 'back',
 	},
 ];

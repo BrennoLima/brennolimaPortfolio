@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Image } from 'semantic-ui-react';
 import ProfilePicture from '../../assets/images/b082020.jpg';
-import ResumePDF from '../../shared/BrennoLima102020.pdf';
+import ResumePDF from '../../shared/BrennoLima112020.pdf';
 
 import './profile.css';
 

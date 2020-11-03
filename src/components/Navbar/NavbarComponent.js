@@ -10,6 +10,7 @@ import {
 } from 'reactstrap';
 import OnOutsiceClick from 'react-outclick';
 import Logo from '../../assets/images/bl-logo.png';
+import './navbar.css';
 
 const NavbarComponent = () => {
 	const [Navb, setNavbar] = useState(false);

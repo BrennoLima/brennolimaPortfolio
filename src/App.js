@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import NavbarComponent from './components/Navbar/NavbarComponent';
-import Footer from './components/FooterComponent';
+import Footer from './components/Footer/FooterComponent';
 import Profile from './components/Profile/ProfileComponent';
 import Skills from './components/Skills/SkillsComponent';
 import Education from './components/Education/EducationComponent';

@@ -20,22 +20,6 @@ p {
 	line-height: 1.7rem;
 }
 
-@media screen and (min-width: 900px) {
-	.exp-technologies {
-		text-align: center;
-		background-color: #f2ffff96;
-		border-radius: 2rem;
-		max-width: 60%;
-	}
-	.exp-title {
-		text-align: left;
-	}
-}
-.footer {
-	background-color: #0a7bff;
-	padding: 20px 0px 20px 0px;
-}
-
 h2,
 h1 {
 	color: #0a7bff;
@@ -46,41 +30,7 @@ a {
 a:hover {
 	color: lightblue;
 }
-.name,
+
 a {
 	color: white;
-}
-.logo-bl {
-	max-width: 4rem;
-}
-#contact {
-	color: #97caef;
-	margin: auto;
-}
-.black {
-	color: black;
-}
-
-#icon-linkedin {
-	font-size: 1.5rem;
-	color: #97caef;
-}
-#icon-linkedin:hover {
-	color: lightblue;
-}
-
-#icon-mail {
-	font-size: 1.5rem;
-	color: #97caef;
-}
-#icon-mail:hover {
-	color: lightblue;
-}
-
-#icon-github {
-	font-size: 1.5rem;
-	color: #97caef;
-}
-#icon-github:hover {
-	color: lightblue;
 }

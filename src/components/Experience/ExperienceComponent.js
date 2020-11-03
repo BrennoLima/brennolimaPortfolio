@@ -63,7 +63,7 @@ const Experience = () => {
 				</Item.Group>
 				<hr />
 				<div className='row mb-5 mt-5'>
-					<div className='col-12 mb-5'>
+					<div className='col-12 mb-0 mb-md-5'>
 						<h1 className='black'>Recent Projects and Designs</h1>
 					</div>
 				</div>
@@ -95,7 +95,7 @@ const Experience = () => {
 										</Item.Description>
 										<Item.Description>
 											<a
-												className='fa fa-github fa-lg black'
+												className='fa fa-github fa-lg black blue-hover'
 												href='https://github.com/BrennoLima/Spark'
 											>
 												GitHub
@@ -128,7 +128,7 @@ const Experience = () => {
 										</Item.Description>
 										<Item.Description>
 											<a
-												className='fa fa-github fa-lg black'
+												className='fa fa-github fa-lg black blue-hover'
 												href='https://github.com/BrennoLima/ADVR'
 											>
 												GitHub
@@ -164,7 +164,7 @@ const Experience = () => {
 										</Item.Description>
 										<Item.Description>
 											<a
-												className='fa fa-github fa-lg black'
+												className='fa fa-github fa-lg black blue-hover'
 												href='https://github.com/BrennoLima/DevConnector'
 											>
 												GitHub
