@@ -55,7 +55,7 @@ const Experience = () => {
 							<Item.Description>
 								Most used tools and technologies:{' '}
 								<i>
-									Java, Python, Selenium, Cucumber, RobotFramework, Jira, Git.
+									Java, Python, Selenium, Cucumber, Robot Framework, Jira, Git.
 								</i>
 							</Item.Description>
 						</Item.Content>
