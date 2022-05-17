@@ -1,11 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Grid, Image } from 'semantic-ui-react';
 import ProfilePicture from '../../assets/images/b082020.jpg';
 import ResumePDF from '../../shared/BrennoLima112020.pdf';
-
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
+import { makeStyles } from '@material-ui/core/styles';
+import { gsap } from 'gsap';
 import './profile.css';
 
+const useStyles = makeStyles({
+	brand: {
+		fontSize: '1.6rem',
+		fontWeight: '600',
+	},
+	profilePic: {
+		opacity: 1,
+	},
+	about: {},
+});
+
 const Profile = () => {
+	const classes = useStyles();
+	useEffect(() => {
+		// var tl = gsap.timeline().to('#about', { opacity: 1, duration: 2 });
+		// tl.to('#about', { fontSize: '10rem', duration: 5 });
+	}, []);
+
 	return (
 		<div className='container profile-container' id='profile'>
 			<h1 className='profile-title m-5'>Profile</h1>
@@ -13,7 +33,9 @@ const Profile = () => {
 			<Grid container columns={3}>
 				<Grid.Column computer={5} mobile={16}>
 					<div className='c1 mt-md-5 '>
-						<h1 className='center-align-text'>About Me</h1>
+						<h1 className='center-align-text' id='about'>
+							About Me
+						</h1>
 						<hr />
 						<p>
 							Hi! Thanks for visiting my personal page. I am Brenno, a Developer
@@ -29,7 +51,14 @@ const Profile = () => {
 				</Grid.Column>
 				<Grid.Column computer={6} mobile={16}>
 					<div className='c2'>
-						<Image src={ProfilePicture} size='large' centered circular />
+						<Image
+							className={classes.profilePic}
+							src={ProfilePicture}
+							size='large'
+							centered
+							circular
+							id='profile-pic'
+						/>
 					</div>
 				</Grid.Column>
 				<Grid.Column computer={5} mobile={16}>

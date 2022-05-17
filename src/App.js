@@ -1,26 +1,35 @@
-import React, { Component } from 'react';
-import './App.css';
-import NavbarComponent from './components/Navbar/NavbarComponent';
-import Footer from './components/Footer/FooterComponent';
-import Profile from './components/Profile/ProfileComponent';
-import Skills from './components/Skills/SkillsComponent';
-import Education from './components/Education/EducationComponent';
-import Experience from './components/Experience/ExperienceComponent';
-import 'animate.css/animate.min.css';
+import React from 'react';
+// Components
+import { Navbar } from './components/Navbar/Navbar';
+import { Landing } from './components/Profile/Landing';
+// Material UI
+import { makeStyles } from '@material-ui/core/styles';
+import Grid from '@mui/material/Grid';
 
-class App extends Component {
-	render() {
-		return (
-			<div className='App'>
-				<NavbarComponent />
-				<Profile />
-				<Skills />
-				<Education />
-				<Experience />
-				<Footer />
-			</div>
-		);
-	}
-}
+const App = () => {
+	const useStyles = makeStyles((theme) => ({
+		app: {
+			background: 'radial-gradient(#5B5387, #413876)',
+		},
+	}));
+	const classes = useStyles();
+
+	return (
+		<Grid
+			container
+			direction='row'
+			alignItems='center'
+			justify='center'
+			className={classes.app}
+		>
+			<Grid item xs={12}>
+				<Navbar />
+			</Grid>
+			<Grid item xs={12}>
+				<Landing />
+			</Grid>
+		</Grid>
+	);
+};
 
 export default App;
