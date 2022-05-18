@@ -9,13 +9,14 @@ const App = () => {
 	const useStyles = makeStyles((theme) => ({
 		app: {
 			background: 'radial-gradient(#5B5387, #413876)',
-			overflow: 'auto',
+			overflow: 'hidden',
 			height: '100vh',
 			position: 'relative',
 		},
 	}));
 	const classes = useStyles();
-	/////////
+	/// state/control
+	const [page, setPage] = useState('landing');
 	// eslint-disable-next-line
 	const [scrollPosition, setScrollPosition] = useState(0);
 	const handleScroll = () => {
@@ -31,8 +32,8 @@ const App = () => {
 
 	return (
 		<div className={classes.app}>
-			<Navbar />
-			<Landing />
+			<Navbar page={page} setPage={setPage} />
+			<Landing page={page} setPage={setPage} />
 		</div>
 	);
 };

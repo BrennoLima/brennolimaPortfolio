@@ -1,4 +1,5 @@
 import React from 'react';
+import clsx from 'clsx';
 // Material UI
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
@@ -28,12 +29,16 @@ const useStyles = makeStyles({
 			color: '#FFFFFF',
 		},
 	},
+	selectedBtn: {
+		textTransform: 'none',
+		color: '#FFFFFF',
+	},
 	btnContainer: {
 		padding: '0 2rem',
 	},
 });
 
-export const Navbar = () => {
+export const Navbar = ({ page, setPage }) => {
 	const classes = useStyles();
 
 	return (
@@ -48,12 +53,44 @@ export const Navbar = () => {
 				<LogoSVG />
 			</Grid>
 			<Grid item className={classes.btnContainer}>
-				<Button className={classes.navBtn}>About</Button>
-				<Button className={classes.navBtn}>Education</Button>
-				<Button className={classes.navBtn}>Skills</Button>
-				<Button className={classes.navBtn}>Work</Button>
-				<Button className={classes.navBtn}>Projects</Button>
-				<Button className={classes.navBtn}>Contact</Button>
+				<Button
+					className={page === 'about' ? classes.selectedBtn : classes.navBtn}
+					onClick={() => setPage('about')}
+				>
+					About
+				</Button>
+				<Button
+					className={
+						page === 'education' ? classes.selectedBtn : classes.navBtn
+					}
+					onClick={() => setPage('education')}
+				>
+					Education
+				</Button>
+				<Button
+					className={page === 'skills' ? classes.selectedBtn : classes.navBtn}
+					onClick={() => setPage('skills')}
+				>
+					Skills
+				</Button>
+				<Button
+					className={page === 'work' ? classes.selectedBtn : classes.navBtn}
+					onClick={() => setPage('work')}
+				>
+					Work
+				</Button>
+				<Button
+					className={page === 'projects' ? classes.selectedBtn : classes.navBtn}
+					onClick={() => setPage('projects')}
+				>
+					Projects
+				</Button>
+				<Button
+					className={page === 'contact' ? classes.selectedBtn : classes.navBtn}
+					onClick={() => setPage('contact')}
+				>
+					Contact
+				</Button>
 			</Grid>
 		</Grid>
 	);
