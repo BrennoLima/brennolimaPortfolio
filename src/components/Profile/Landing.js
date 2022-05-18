@@ -1,6 +1,7 @@
 import React from 'react';
 // Components
 import { BrennoSVG } from '../SVGComponents/BrennoSVG';
+import { LandingBlob } from '../SVGComponents/LandingBlob';
 // Material UI
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
@@ -9,10 +10,6 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export const Landing = () => {
 	const useStyles = makeStyles((theme) => ({
-		container: {
-			height: '100vh',
-			width: '100vw',
-		},
 		svgContainer: {
 			height: '50vh',
 			display: 'flex',
@@ -36,16 +33,26 @@ export const Landing = () => {
 			background: 'transparent',
 		},
 		nameContainer: {
-			height: '50vh',
+			height: 'calc(50vh - 50px)',
 			display: 'flex',
 			alignItems: 'flex-end',
 			justifyContent: 'center',
+		},
+		backgroundBlob: {
+			position: 'fixed',
+			height: '80vh',
+			bottom: 10,
+			left: '50%',
+			transform: 'translateX(-50%)',
 		},
 	}));
 	const classes = useStyles();
 
 	return (
-		<Container className={classes.container}>
+		<Container>
+			<div className={classes.backgroundBlob}>
+				<LandingBlob />
+			</div>
 			<Grid
 				container
 				direction='row'

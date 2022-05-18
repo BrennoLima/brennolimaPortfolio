@@ -15,7 +15,7 @@ export const BrennoSVG = () => {
 					opacity='0.64'
 					d='M186 447.109C288.725 447.109 372 430.355 372 409.688C372 389.021 288.725 372.266 186 372.266C83.275 372.266 0 389.021 0 409.688C0 430.355 83.275 447.109 186 447.109Z'
 					fill='black'
-					fill-opacity='0.1'
+					fillOpacity='0.1'
 				/>
 				<g id='SHAPE 43'>
 					<path
@@ -23,10 +23,10 @@ export const BrennoSVG = () => {
 						d='M96.8371 403.675C99.4479 395.21 107.439 390.7 120.413 386.903C128.641 384.529 139.085 383.422 155.462 380.099C163.452 378.517 169.069 375.352 169.069 375.352V384.45C169.069 384.45 114.875 395.131 106.41 409.134C102.296 416.017 103.562 432.869 122.945 434.609C117.011 435.479 107.28 433.976 102.059 428.676C95.5712 422.109 93.8307 413.327 96.8371 403.675Z'
 						fill='#282323'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE210'
@@ -43,37 +43,37 @@ export const BrennoSVG = () => {
 						id='SHAPE 47'
 						d='M169.069 384.45C169.069 384.45 136.632 390.463 119.306 397.9C104.116 404.466 104.59 411.27 104.195 418.232C103.957 422.267 106.806 432.236 118.356 433.976C132.122 436.033 148.341 433.818 169.069 420.606C169.069 388.248 169.069 384.45 169.069 384.45Z'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE 46'
 						d='M139.006 403.042C136.395 404.466 137.028 418.311 143.357 420.21'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE 45'
 						d='M148.895 402.014C146.205 405.811 148.104 414.751 152.93 416.967'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE 44'
 						d='M157.993 398.849C155.303 402.647 157.202 411.587 162.028 413.802'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 				</g>
 				<path
@@ -96,10 +96,10 @@ export const BrennoSVG = () => {
 					id='SHAPE 56'
 					d='M329.594 338.484C329.278 340.066 328.961 341.57 328.487 343.152C316.145 388.169 256.65 422.346 185.051 422.346C113.293 422.346 53.6402 388.01 41.5355 342.836C41.2191 341.57 40.9026 340.304 40.6653 339.038C40.3488 336.665 40.4279 334.291 40.9026 331.918C43.8299 318.626 59.9694 310.952 76.9792 314.75C88.1344 317.202 96.8371 324.085 100.714 332.234C101.109 333.975 101.742 335.715 102.454 337.377C106.568 346.87 114.796 353.991 120.334 357.947C136.869 369.814 160.525 376.618 185.051 376.618C209.655 376.618 233.232 369.814 249.767 357.947C255.384 353.912 263.691 346.712 267.726 337.218C268.359 335.715 268.913 334.054 269.308 332.471C273.106 324.243 281.888 317.36 293.122 314.829C310.132 311.031 326.271 318.784 329.199 331.997C329.752 334.054 329.832 336.269 329.594 338.484Z'
 					stroke='black'
-					stroke-width='4'
-					stroke-miterlimit='10'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeWidth='4'
+					strokeMiterlimit='10'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<path
 					id='SHAPE 75'
@@ -110,10 +110,10 @@ export const BrennoSVG = () => {
 					id='SHAPE 31'
 					d='M186 352.409C225.368 352.409 257.283 341.57 257.283 328.199C257.283 314.829 225.368 303.99 186 303.99C146.632 303.99 114.717 314.829 114.717 328.199C114.717 341.57 146.632 352.409 186 352.409Z'
 					stroke='black'
-					stroke-width='4'
-					stroke-miterlimit='10'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeWidth='4'
+					strokeMiterlimit='10'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<g id='SHAPE 89'>
 					<path
@@ -125,29 +125,29 @@ export const BrennoSVG = () => {
 						id='4'
 						d='M267.172 275.35H102.929C90.3496 275.35 80.6185 264.353 82.2008 251.853L89.4794 193.703C91.5364 177.089 105.619 164.668 122.391 164.668H247.868C264.561 164.668 278.644 177.089 280.78 193.703L288.059 251.853C289.483 264.353 279.752 275.35 267.172 275.35Z'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<g id='SHAPE191'>
 						<path
 							id='SHAPE189'
 							d='M120.73 213.799L119.148 233.656'
 							stroke='black'
-							stroke-width='4'
-							stroke-miterlimit='10'
-							stroke-linecap='round'
-							stroke-linejoin='round'
+							strokeWidth='4'
+							strokeMiterlimit='10'
+							strokeLinecap='round'
+							strokeLinejoin='round'
 						/>
 						<path
 							id='SHAPE192'
 							d='M250.558 213.799L252.14 233.656'
 							stroke='black'
-							stroke-width='4'
-							stroke-miterlimit='10'
-							stroke-linecap='round'
-							stroke-linejoin='round'
+							strokeWidth='4'
+							strokeMiterlimit='10'
+							strokeLinecap='round'
+							strokeLinejoin='round'
 						/>
 					</g>
 				</g>
@@ -181,29 +181,29 @@ export const BrennoSVG = () => {
 						id='SHAPE201'
 						d='M267.172 275.35H102.929C90.3497 275.35 80.6185 264.353 82.2008 251.853L89.4794 193.703C91.5364 177.089 105.619 164.668 122.391 164.668H247.868C264.562 164.668 278.644 177.089 280.78 193.703L288.059 251.853C289.483 264.353 279.752 275.35 267.172 275.35Z'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<g id='SHAPE195'>
 						<path
 							id='SHAPE199'
 							d='M120.73 213.799L119.148 233.656'
 							stroke='black'
-							stroke-width='4'
-							stroke-miterlimit='10'
-							stroke-linecap='round'
-							stroke-linejoin='round'
+							strokeWidth='4'
+							strokeMiterlimit='10'
+							strokeLinecap='round'
+							strokeLinejoin='round'
 						/>
 						<path
 							id='SHAPE196'
 							d='M250.558 213.799L252.14 233.656'
 							stroke='black'
-							stroke-width='4'
-							stroke-miterlimit='10'
-							stroke-linecap='round'
-							stroke-linejoin='round'
+							strokeWidth='4'
+							strokeMiterlimit='10'
+							strokeLinecap='round'
+							strokeLinejoin='round'
 						/>
 					</g>
 				</g>
@@ -222,10 +222,10 @@ export const BrennoSVG = () => {
 						id='SHAPE 81'
 						d='M157.519 168.149C153.88 158.339 144.386 151.218 133.31 151.218H129.354C125.082 151.218 121.601 147.737 121.601 143.465C121.601 139.193 125.082 135.712 129.354 135.712H159.418V121.471H129.354C117.249 121.471 107.36 131.281 107.36 143.465C107.36 155.57 117.17 165.459 129.354 165.459H133.31C139.718 165.459 144.861 170.602 144.861 177.01V178.197C144.861 185.871 151.111 192.121 158.785 192.121'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 				</g>
 				<g id='8'>
@@ -243,10 +243,10 @@ export const BrennoSVG = () => {
 						id='SHAPE 71'
 						d='M204.829 168.149C208.469 158.339 217.963 151.218 229.039 151.218H232.994C237.267 151.218 240.748 147.737 240.748 143.465C240.748 139.193 237.267 135.712 232.994 135.712H202.931V121.471H232.994C245.099 121.471 254.989 131.281 254.989 143.465C254.989 155.57 245.178 165.459 232.994 165.459H229.039C222.63 165.459 217.488 170.602 217.488 177.01V178.197C217.488 185.871 211.238 192.121 203.564 192.121'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 				</g>
 				<path
@@ -263,10 +263,10 @@ export const BrennoSVG = () => {
 					id='3'
 					d='M182.598 180.966C199.639 180.966 213.453 167.151 213.453 150.111C213.453 133.07 199.639 119.256 182.598 119.256C165.557 119.256 151.743 133.07 151.743 150.111C151.743 167.151 165.557 180.966 182.598 180.966Z'
 					stroke='black'
-					stroke-width='4'
-					stroke-miterlimit='10'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeWidth='4'
+					strokeMiterlimit='10'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<path
 					id='SHAPE 70'
@@ -282,10 +282,10 @@ export const BrennoSVG = () => {
 					id='SHAPE5'
 					d='M182.598 167.991C172.55 167.991 164.402 159.842 164.402 149.794V136.186C164.402 133.655 166.459 131.598 168.99 131.598H196.285C198.817 131.598 200.874 133.655 200.874 136.186V149.794C200.795 159.842 192.646 167.991 182.598 167.991Z'
 					stroke='black'
-					stroke-width='4'
-					stroke-miterlimit='10'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeWidth='4'
+					strokeMiterlimit='10'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<path
 					id='SHAPE 30'
@@ -296,28 +296,28 @@ export const BrennoSVG = () => {
 					id='SHAPE 33'
 					d='M202.298 372.978H185.367V427.014H202.298V372.978Z'
 					stroke='black'
-					stroke-width='4'
-					stroke-miterlimit='10'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeWidth='4'
+					strokeMiterlimit='10'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<path
 					id='SHAPE 54'
 					d='M102.375 337.218C101.663 335.557 101.109 333.896 100.635 332.076C101.505 333.816 102.059 335.478 102.375 337.218Z'
 					stroke='black'
-					stroke-width='4'
-					stroke-miterlimit='10'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeWidth='4'
+					strokeMiterlimit='10'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<path
 					id='SHAPE 51'
 					d='M267.805 337.06C268.122 335.399 268.675 333.816 269.387 332.313C268.992 333.975 268.438 335.557 267.805 337.06Z'
 					stroke='black'
-					stroke-width='4'
-					stroke-miterlimit='10'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeWidth='4'
+					strokeMiterlimit='10'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<g id='SHAPE 88'>
 					<path
@@ -341,10 +341,10 @@ export const BrennoSVG = () => {
 						id='9'
 						d='M267.568 333.263H102.613C96.758 333.263 91.7737 328.912 90.9826 323.057L80.6976 242.518C79.8273 235.556 85.2863 229.306 92.3275 229.306H277.853C284.894 229.306 290.353 235.477 289.483 242.518L279.198 323.057C278.407 328.833 273.422 333.263 267.568 333.263Z'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE190'
@@ -359,10 +359,10 @@ export const BrennoSVG = () => {
 						d='M274.53 403.675C271.919 395.21 263.929 390.7 250.954 386.903C242.726 384.529 232.282 383.422 215.906 380.099C207.915 378.517 202.298 375.352 202.298 375.352V384.45C202.298 384.45 256.492 395.131 264.957 409.134C269.071 416.017 267.805 432.869 248.422 434.609C254.356 435.479 264.087 433.976 269.308 428.676C275.796 422.109 277.536 413.327 274.53 403.675Z'
 						fill='#282323'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE 52'
@@ -379,56 +379,56 @@ export const BrennoSVG = () => {
 						id='SHAPE 34'
 						d='M202.298 384.45C202.298 384.45 234.735 390.463 252.061 397.9C267.251 404.466 266.777 411.27 267.172 418.232C267.41 422.267 264.561 432.236 253.011 433.976C239.245 436.033 223.026 433.818 202.298 420.606C202.298 388.248 202.298 384.45 202.298 384.45Z'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE 37'
 						d='M232.362 403.042C234.972 404.466 234.339 418.311 228.01 420.21'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE 38'
 						d='M222.472 402.014C225.162 405.811 223.263 414.751 218.437 416.967'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE 40'
 						d='M213.374 398.849C216.064 402.647 214.165 411.587 209.339 413.802'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 				</g>
 				<path
 					id='SHAPE 83'
 					d='M154.829 184.13V226.22'
 					stroke='black'
-					stroke-width='6'
-					stroke-miterlimit='10'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeWidth='6'
+					strokeMiterlimit='10'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<path
 					id='SHAPE 84'
 					d='M208.231 184.13V213.799'
 					stroke='black'
-					stroke-width='6'
-					stroke-miterlimit='10'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeWidth='6'
+					strokeMiterlimit='10'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<path
 					id='7'
@@ -455,10 +455,10 @@ export const BrennoSVG = () => {
 						id='424'
 						d='M182.598 144.968C155.066 144.968 132.676 122.658 132.676 95.0465V37.1341H232.52V95.0465C232.52 122.579 210.209 144.968 182.598 144.968Z'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE197'
@@ -488,28 +488,28 @@ export const BrennoSVG = () => {
 						id='SHAPE 3'
 						d='M208.864 12.8457C208.864 12.8457 168.911 -13.4997 135.841 15.9312C129.67 21.3902 127.217 29.2226 127.217 36.4221V74.5556H132.755V46.8653C132.755 44.8083 134.179 43.226 135.92 43.226C138.768 43.226 154.196 51.454 167.25 53.7483C186.949 57.1503 204.909 48.052 208.785 46.7071C215.431 44.3336 220.811 52.5616 229.197 43.3051H229.513C231.254 43.3051 232.678 44.9665 232.678 46.9444V74.6347H238.216V36.6594C238.058 27.3238 227.298 3.90569 208.864 12.8457Z'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE 6'
 						d='M175.082 38.5582C175.082 38.5582 132.202 41.3272 123.103 18.542'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE 9'
 						d='M181.174 33.0992C181.174 33.0992 139.876 30.4884 129.116 7.70324'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE 85'
@@ -525,10 +525,10 @@ export const BrennoSVG = () => {
 						id='SHAPE2'
 						d='M232.52 68.3846V94.3345C238.058 94.3345 242.488 88.559 242.488 81.3595C242.488 74.16 238.058 68.3846 232.52 68.3846Z'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE 87'
@@ -544,38 +544,38 @@ export const BrennoSVG = () => {
 						id='SHAPE1'
 						d='M132.755 68.3846V94.3345C127.217 94.3345 122.787 88.559 122.787 81.3595C122.708 74.16 127.217 68.3846 132.755 68.3846Z'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE 7'
 						d='M180.541 89.5084L177.218 100.347C177.218 101.534 181.095 100.585 185.051 101.534'
 						stroke='black'
-						stroke-width='4'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='4'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						id='SHAPE6'
 						d='M199.212 109.762C200.399 117.99 189.798 125.269 181.49 123.765'
 						stroke='black'
-						stroke-width='3'
-						stroke-miterlimit='10'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='3'
+						strokeMiterlimit='10'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<g id='SHAPE9'>
 						<path
 							id='SHAPE4'
 							d='M164.639 80.3311C166.474 80.3311 167.962 78.7371 167.962 76.7709C167.962 74.8046 166.474 73.2107 164.639 73.2107C162.804 73.2107 161.316 74.8046 161.316 76.7709C161.316 78.7371 162.804 80.3311 164.639 80.3311Z'
 							stroke='black'
-							stroke-width='2'
-							stroke-miterlimit='10'
-							stroke-linecap='round'
-							stroke-linejoin='round'
+							strokeWidth='2'
+							strokeMiterlimit='10'
+							strokeLinecap='round'
+							strokeLinejoin='round'
 						/>
 						<path
 							id='0'
@@ -586,10 +586,10 @@ export const BrennoSVG = () => {
 							id='SHAPE7'
 							d='M153.167 69.2549C154.829 67.277 158.705 65.9321 163.294 65.9321C166.933 65.9321 170.098 66.8024 172.076 68.1473'
 							stroke='black'
-							stroke-width='3'
-							stroke-miterlimit='10'
-							stroke-linecap='round'
-							stroke-linejoin='round'
+							strokeWidth='3'
+							strokeMiterlimit='10'
+							strokeLinecap='round'
+							strokeLinejoin='round'
 						/>
 					</g>
 					<g id='SHAPE3'>
@@ -597,10 +597,10 @@ export const BrennoSVG = () => {
 							id='2'
 							d='M201.032 80.3311C202.867 80.3311 204.355 78.7371 204.355 76.7709C204.355 74.8046 202.867 73.2107 201.032 73.2107C199.197 73.2107 197.709 74.8046 197.709 76.7709C197.709 78.7371 199.197 80.3311 201.032 80.3311Z'
 							stroke='black'
-							stroke-width='2'
-							stroke-miterlimit='10'
-							stroke-linecap='round'
-							stroke-linejoin='round'
+							strokeWidth='2'
+							strokeMiterlimit='10'
+							strokeLinecap='round'
+							strokeLinejoin='round'
 						/>
 						<path
 							id='1'
@@ -611,10 +611,10 @@ export const BrennoSVG = () => {
 							id='SHAPE8'
 							d='M212.504 69.2549C210.842 67.277 206.966 65.9321 202.377 65.9321C198.738 65.9321 195.573 66.8024 193.595 68.1473'
 							stroke='black'
-							stroke-width='3'
-							stroke-miterlimit='10'
-							stroke-linecap='round'
-							stroke-linejoin='round'
+							strokeWidth='3'
+							strokeMiterlimit='10'
+							strokeLinecap='round'
+							strokeLinejoin='round'
 						/>
 					</g>
 				</g>
