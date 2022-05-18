@@ -11,6 +11,9 @@ body {
 .pb-20 {
 	padding-bottom: 2rem;
 }
+.pb-30 {
+	padding-bottom: 3rem;
+}
 
 .mr-auto: {
 	margin-right: 'auto !important';
