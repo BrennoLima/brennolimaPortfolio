@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 // Components
 import { Navbar } from './components/Navbar/Navbar';
 import { Landing } from './components/Profile/Landing';
+import { Box } from '@material-ui/core';
 // Material UI
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -15,26 +16,13 @@ const App = () => {
 		},
 	}));
 	const classes = useStyles();
-	/// state/control
-	const [page, setPage] = useState('landing');
-	// eslint-disable-next-line
-	const [scrollPosition, setScrollPosition] = useState(0);
-	const handleScroll = () => {
-		const position = window.pageYOffset;
-		setScrollPosition(position);
-	};
-	useEffect(() => {
-		window.addEventListener('scroll', handleScroll, { passive: true });
-		return () => {
-			window.removeEventListener('scroll', handleScroll);
-		};
-	}, []);
+	const [page, setPage] = useState('');
 
 	return (
-		<div className={classes.app}>
+		<Box className={classes.app}>
 			<Navbar page={page} setPage={setPage} />
 			<Landing page={page} setPage={setPage} />
-		</div>
+		</Box>
 	);
 };
 

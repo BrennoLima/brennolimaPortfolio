@@ -3,8 +3,7 @@ import React from 'react';
 import { TorontoSVG } from '../SVGComponents/TorontoSVG';
 // Material UI
 import { makeStyles } from '@material-ui/core/styles';
-import Typography from '@mui/material/Typography';
-import Grid from '@mui/material/Grid';
+import { Box, Typography } from '@mui/material';
 
 const useStyles = makeStyles((theme) => ({
 	title: {
@@ -18,13 +17,15 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
 	const classes = useStyles();
 	return (
-		<Grid container direction='row' alignItems='center' justify='center'>
-			<Grid item xs={12}>
-				<Typography className={classes.title}>ABOUT ME</Typography>
-			</Grid>
-			<Grid item xs={12}>
-				<TorontoSVG />
-			</Grid>
-		</Grid>
+		<Box
+			sx={{
+				position: 'absolute',
+				bottom: 0,
+				left: 0,
+			}}
+		>
+			<Typography className={classes.title}>ABOUT ME</Typography>
+			<TorontoSVG />
+		</Box>
 	);
 };

@@ -69,29 +69,47 @@ export const Landing = ({ page, setPage }) => {
 	const classes = useStyles();
 	//////// State/Control
 	useEffect(() => {
+		if (localStorage.getItem('page')) {
+			setPage(localStorage.getItem('page'));
+		}
+	}, []);
+	useEffect(() => {
+		console.log('set page ' + page);
+		localStorage.setItem('page', page);
+		console.log("localStorage.getItem('page')");
+		console.log(localStorage.getItem('page'));
 		if (page !== 'landing') floatLeft();
 		else back();
 	}, [page]);
-	//////////////////////////////////////////////////////////
 
+	//////////////////////////////////////////////////////////
 	const floatLeft = () => {
+		gsap.to('.floating-item', { opacity: 0 });
 		gsap.to('.floating-item', { x: '-1000%', duration: 2 });
-		gsap.to('.intro', { opacity: 0, display: 'none' });
+		gsap.to('.intro', { opacity: 0 });
 		gsap.to('#back-btn', { opacity: 1 });
 	};
 
 	const back = () => {
 		setPage('landing');
-		gsap.to('.floating-item', { x: '0', duration: 2 });
-		gsap.fromTo(
-			'.intro',
-			{ opacity: 0 },
-			{ opacity: 1, display: 'block', duration: 2 }
-		);
+		gsap.to('.floating-item', { opacity: 1, delay: 0.25 });
+		gsap.to('.floating-item', { x: 0, duration: 2 });
+		gsap.to('.intro', { opacity: 1, delay: 1.5 });
 		gsap.to('#back-btn', { opacity: 0 });
 	};
+
+	const navbar_height = '50px';
+
 	return (
-		<Container>
+		<Container
+			maxWidth='lg'
+			sx={{
+				position: 'relative',
+				height: `calc(100vh - ${navbar_height})`,
+				zIndex: 10,
+				// background: 'red',
+			}}
+		>
 			{/**
 			 * Floating items
 			 */}
@@ -102,39 +120,42 @@ export const Landing = ({ page, setPage }) => {
 			<div className={classes.backgroundBlob}>
 				<LandingBlob />
 			</div>
-			<Grid
-				container
-				direction='row'
-				alignItems='flex-end'
-				justifyContent='center'
-			>
-				<Grid item xs={12} className={clsx(classes.nameContainer)}>
-					<Button
-						onClick={() => setPage('landing')}
-						className={classes.backBtn}
-						id='back-btn'
-						startIcon={
-							<span key='back'>
-								<i className='fa-solid fa-left-long' />
-							</span>
-						}
-					>
-						BACK
-					</Button>
-					<div className='w-full pb-20 intro'>
-						<Typography align='center' className={classes.title}>
-							I AM <mark className={classes.name}>BRENNO</mark>,
-						</Typography>
-						<Typography align='center' className={classes.subtitle}>
-							CREATIVE UI/UX DEVELOPER
-						</Typography>
-					</div>
+			<Container>
+				<Grid
+					container
+					direction='row'
+					alignItems='flex-end'
+					justifyContent='center'
+				>
+					<Grid item xs={12} className={clsx(classes.nameContainer)}>
+						<Button
+							onClick={() => setPage('landing')}
+							className={classes.backBtn}
+							id='back-btn'
+							startIcon={
+								<span key='back'>
+									<i className='fa-solid fa-left-long' />
+								</span>
+							}
+							size='large'
+						>
+							Back
+						</Button>
+						<div className='w-full pb-20 intro'>
+							<Typography align='center' className={classes.title}>
+								I AM <mark className={classes.name}>BRENNO</mark>,
+							</Typography>
+							<Typography align='center' className={classes.subtitle}>
+								CREATIVE UI/UX DEVELOPER
+							</Typography>
+						</div>
+					</Grid>
+					<Grid item xs={12} className={classes.svgContainer}>
+						<BrennoSVG />
+					</Grid>
+					{page === 'about' && <About />}
 				</Grid>
-				<Grid item xs={12} className={classes.svgContainer}>
-					<BrennoSVG />
-				</Grid>
-				{page === 'about' && <About />}
-			</Grid>
+			</Container>
 		</Container>
 	);
 };
