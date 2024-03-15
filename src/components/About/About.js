@@ -1,31 +1,36 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // Components
 import { TorontoSVG } from '../SVGComponents/TorontoSVG';
 // Material UI
-import { makeStyles } from '@material-ui/core/styles';
-import { Box, Typography } from '@mui/material';
-
-const useStyles = makeStyles((theme) => ({
-	title: {
-		fontWeight: '700',
-		fontSize: '2rem',
-		color: '#B3ADDA',
-		letterSpacing: '0.2rem',
-	},
-}));
+import { Box, Container, Typography } from '@mui/material';
+// gsap
+import gsap from 'gsap';
 
 export const About = () => {
-	const classes = useStyles();
+	useEffect(() => {
+		gsap.fromTo(
+			'#about-me-page',
+			{ opacity: 0 },
+			{ opacity: 1, duration: 1, delay: 1 }
+		);
+	}, []);
+
 	return (
-		<Box
-			sx={{
-				position: 'absolute',
-				bottom: 0,
-				left: 0,
-			}}
-		>
-			<Typography className={classes.title}>ABOUT ME</Typography>
-			<TorontoSVG />
-		</Box>
+		<Container maxWidth='lg'>
+			<Typography
+				fontWeight='bold'
+				sx={{
+					fontSize: '2rem',
+					color: '#B3ADDA',
+					letterSpacing: '0.4rem',
+					my: 8,
+				}}
+			>
+				ABOUT ME
+			</Typography>
+			<Box sx={{ mt: 8 }}>
+				<TorontoSVG height='25vh' />
+			</Box>
+		</Container>
 	);
 };

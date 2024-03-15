@@ -3,13 +3,11 @@ import React from 'react';
 export const AboutSVG = () => {
 	return (
 		<svg
-			width='200'
-			height='200'
+			height='100%'
+			preserveAspectRatio='xMidYMid meet'
 			viewBox='0 0 200 200'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
-			preserveAspectRatio='xMidYMid meet'
-			style={{ pointerEvents: 'none' }}
 		>
 			<g id='About'>
 				<path

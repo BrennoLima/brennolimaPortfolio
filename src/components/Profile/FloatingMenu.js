@@ -13,9 +13,10 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(() => ({
 	floatingSkill: {
+		height: '20vh',
 		zIndex: 100,
 		position: 'absolute',
-		bottom: '2%',
+		bottom: '5%',
 		left: 0,
 		cursor: 'pointer',
 		borderRadius: '50%',
@@ -25,6 +26,7 @@ const useStyles = makeStyles(() => ({
 		},
 	},
 	floatingWork: {
+		height: '20vh',
 		zIndex: 100,
 		position: 'absolute',
 		bottom: '40%',
@@ -37,6 +39,7 @@ const useStyles = makeStyles(() => ({
 		},
 	},
 	floatingContact: {
+		height: '15vh',
 		zIndex: 100,
 		position: 'absolute',
 		top: '10%',
@@ -49,6 +52,7 @@ const useStyles = makeStyles(() => ({
 		},
 	},
 	floatingProjects: {
+		height: '20vh',
 		zIndex: 100,
 		position: 'absolute',
 		top: '5%',
@@ -61,6 +65,7 @@ const useStyles = makeStyles(() => ({
 		},
 	},
 	floatingEducation: {
+		height: '20vh',
 		zIndex: 100,
 		position: 'absolute',
 		bottom: '40%',
@@ -73,9 +78,10 @@ const useStyles = makeStyles(() => ({
 		},
 	},
 	floatingAbout: {
+		height: '20vh',
 		zIndex: 100,
 		position: 'absolute',
-		bottom: '2%',
+		bottom: '5%',
 		right: '0',
 		cursor: 'pointer',
 		borderRadius: '50%',

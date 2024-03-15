@@ -3,9 +3,9 @@ import React from 'react';
 export const SkillsSVG = () => {
 	return (
 		<svg
-			width='200'
-			height='200'
+			height='100%'
 			viewBox='0 0 200 200'
+			preserveAspectRatio='xMidYMid meet'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
 			style={{ pointerEvents: 'none' }}
